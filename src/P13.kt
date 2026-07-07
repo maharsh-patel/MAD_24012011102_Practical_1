@@ -1,6 +1,7 @@
 fun main (){
+
     print("Student Enrollment No:")
-    var a =readln()
+    var a =readln().toLong()
 
     print("Student Name:")
     var b = readln()
@@ -8,21 +9,19 @@ fun main (){
     print("Student Branch:")
     var c = readln()
 
-    print("Studnet class")
+    print("Student Class:")
     var d = readln()
-    println("Student Class: $d")
 
-    print("Student Batch")
+    print("Student Batch:")
     var e = readln()
 
     print("Student College Name:")
     var f = readln()
 
-
-    println("Student University Name:")
+    print("Student University Name:")
     var g = readln()
 
-    print("Student Age")
+    print("Student Age:")
     var i = readln().toInt()
 
 
