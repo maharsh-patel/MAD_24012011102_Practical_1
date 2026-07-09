@@ -3,7 +3,7 @@
 
 open class Car(var model: String) {
 
-    var price: Double = 0.0
+    var price: Double = 1770000.00
     constructor(p:Double , m:String) : this(m){
         price = p
     }
