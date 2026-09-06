@@ -1,30 +1,28 @@
-fun main (){
+fun main() {
 
-    print("Student Enrollment No:")
-    var a =readln().toLong()
+    print("Student Enrollment No: ")
+    val a = readLine()!!.toLong()
 
-    print("Student Name:")
-    var b = readln()
+    print("Student Name: ")
+    val b = readLine()!!
 
-    print("Student Branch:")
-    var c = readln()
+    print("Student Branch: ")
+    val c = readLine()!!
 
-    print("Student Class:")
-    var d = readln()
+    print("Student Class: ")
+    val d = readLine()!!
 
-    print("Student Batch:")
-    var e = readln()
+    print("Student Batch: ")
+    val e = readLine()!!
 
-    print("Student College Name:")
-    var f = readln()
+    print("Student College Name: ")
+    val f = readLine()!!
 
-    print("Student University Name:")
-    var g = readln()
+    print("Student University Name: ")
+    val g = readLine()!!
 
-    print("Student Age:")
-    var i = readln().toInt()
-
-
+    print("Student Age: ")
+    val i = readLine()!!.toInt()
 
     println("Student Enrollment No: $a")
     println("Student Name: $b")
