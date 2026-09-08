@@ -1,8 +1,8 @@
 fun main(){
-    println("Enter First Number :")
+    print("Enter First Number: ")
     val Num1 = readln().toInt()
 
-    println("Enter Second Number:")
+    print("Enter Second Number: ")
     val Num2 = readln().toInt()
 
     println(addition(Num1, Num2))

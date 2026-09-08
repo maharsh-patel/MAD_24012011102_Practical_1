@@ -14,7 +14,7 @@ class Suzuki (m: String) : Car(m)
 
 fun main() {
 
-    val c1 = Car( 2500000.00, "BMW")
+    val c1 = Car( 4500000.00, "BMW")
     val c2 = Suzuki(  "Grand Vttara")
 
     println(c1.model)
